@@ -19,6 +19,8 @@ Untracked files:
 ..............
 	<new file that doesn't exists in cloud before 'git add'>
 
+# To store added files. Use -m for message followed by the actual message.
+Syntax: git commit -m "Added new files from desktop" -m "Description"
 
 # To create new branch and move to main
 Syntax: git branch -M "main"
