@@ -1,0 +1,27 @@
+#To add a file for tracking
+
+Syntax: git add <file name> 
+
+#To add current dirsctory for tracking
+
+Syntax: git add . 
+
+#To check git status
+
+Syntax: git status
+Output: 
+.......
+.......
+	modified: <file_name>
+	new file: <new_file>
+
+Untracked files:
+..............
+	<new file that doesn't exists in cloud before 'git add'>
+
+
+# To create new branch and move to main
+Syntax: git branch -M "main"
+
+# To pushe code to GitHub
+Syntax: git push -u origin main 

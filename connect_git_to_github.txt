@@ -1,0 +1,16 @@
+#To connect local git to github online repo
+
+# To set username
+Syntax: git config --global user.name <user name>
+Example: git config --global user.name israt22Anika
+
+# To check user name
+Syntax: git config --global user.name
+
+# To set email
+Syntax: git config --global user.email <email address>
+Example: git config --global user.email "isratrahman.anika@gmail.com"
+
+# To check user email
+Syntax: git config --global user.email
+

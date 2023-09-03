@@ -1,0 +1,23 @@
+# To push with ssh key
+
+Step #1: Creare ssh-key in local
+cmd:  ssh-keygen -t rsa -b 4096 -C "isratrahman.anika@gmail.com"
+
+	This will create a ssh private key in /c/Users/israt/.ssh/id_rsa and public key in /c/Users/israt/.ssh/id_rsa.pub by default
+
+Step #2: Add this public key to online Github account setting
+
+Step #3: Add ssh agent in local
+cmd:  eval "$(ssh-agent -s)"
+output: Agent pid 1754
+
+Step #4: Check authentication (Not mandatory)
+cmd:  ssh -T git@github.com
+
+output: Hi israt22Anika! You've successfully authenticated, but GitHub does not provide shell access.
+
+Step $5: Connect local to online Github account
+cmd: ssh-add ~/.ssh/id_rsa
+
+# Cloning with ssh key:
+ git clone git@github.com:israt22Anika/TEST.git

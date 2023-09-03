@@ -1,0 +1,7 @@
+#Cloning GITHUB Repo in Desktop
+
+Syntax: git clone <http link>
+Example: git clone https://github.com/israt22Anika/TEST.git
+
+-Creates TEST directory in local and include hidden file .git to track version control and other repo settings
+
